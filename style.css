@@ -112,3 +112,7 @@ nav ul li
     justify-content: space-around;
     align-items:flex-end;
 } 
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
