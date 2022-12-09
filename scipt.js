@@ -40,3 +40,7 @@ Audioelement.addEventListener('timeupdate',()=>{
     progressing=parseInt((Audioelement.currentTime/Audioelement.duration)*100);
     MyProgressBar.value=progressing;
 })
+//This is so that when we click the different parts of the Audio bar, the song seeks to that place.
+MyProgressBar.addEventListener('change',()=>{
+    Audioelement.currentTime= MyProgressBar.value * Audioelement.duration/100;
+})
