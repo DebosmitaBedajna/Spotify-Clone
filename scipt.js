@@ -8,13 +8,13 @@ let MyProgressBar=document.getElementById('Progress');
 
 //Initialization of all the songs that is in our playlist
 let songs=[
-    {songName="Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
-    {songName="Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
-    {songName="Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
-    {songName="Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
-    {songName="Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
-    {songName="Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
-    {songName="Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"}
+    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
+    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
+    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
+    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
+    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
+    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
+    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"}
 ]
 
 
