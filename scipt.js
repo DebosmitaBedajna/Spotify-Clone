@@ -23,6 +23,8 @@ Play.addEventListener('click',()=>{
     if(Audioelement.paused|| Audioelement.currentTime<=0)
     {
         Audioelement.play();
+        Play.classList.remove('fa-play');
+        Play.classList.add('fa-pause');
     }
 })
 //The Progress Bar will get updated as soon as you play the song
