@@ -37,4 +37,6 @@ Play.addEventListener('click',()=>{
 //The Progress Bar will get updated as soon as you play the song
 Audioelement.addEventListener('timeupdate',()=>{
     console.log("The time is getting updated");
+    progressing=parseInt((Audioelement.currentTime/Audioelement.duration)*100);
+    MyProgressBar.value=progressing;
 })
