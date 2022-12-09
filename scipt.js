@@ -26,6 +26,6 @@ Play.addEventListener('click',()=>{
     }
 })
 //The Progress Bar will get updated as soon as you play the song
-MyPrograssBar.addEventListener('timeupdate',()=>{
+MyProgressBar.addEventListener('timeupdate',()=>{
     console.log("The time is getting updated");
 })
