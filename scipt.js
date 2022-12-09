@@ -26,6 +26,11 @@ Play.addEventListener('click',()=>{
         Play.classList.remove('fa-play');
         Play.classList.add('fa-pause');
     }
+    else{
+        Audioelement.pause();
+        Play.classList.remove('fa-pause');
+        Play.classList.add('fa-play');
+    }
 })
 //The Progress Bar will get updated as soon as you play the song
 MyProgressBar.addEventListener('timeupdate',()=>{
