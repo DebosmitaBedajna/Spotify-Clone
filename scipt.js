@@ -19,7 +19,9 @@ let songs=[
 ]
 
 songItems.forEach(element,i => {
-    element.getElementsByTagName("img")[0]. src = songs[i].filepath;
+    console.log(element,i)
+    element.getElementsByTagName("img")[0]. src = songs[i].coverpath;
+    element.getElementsByClassName("Songname")[0]. src = songs[i].songName;
 });
 
 
