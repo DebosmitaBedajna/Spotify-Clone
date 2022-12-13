@@ -59,7 +59,7 @@ const makeallPlays= ()=>{
         });
 }
 
-Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
+/*Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
     element.addEventListener('click', (e)=>{
         index= parseInt(e.target.id);
         makeallPlays();
@@ -72,4 +72,4 @@ Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
         Play.classList.add('fa-pause');
         gif.style.opacity=1;
     })
-});
+});*/
