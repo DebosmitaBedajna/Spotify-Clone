@@ -40,7 +40,7 @@ Play.addEventListener('click',()=>{
         Play.classList.add('fa-play');
         gif.style.opacity=0;
     }
-})
+});
 //The Progress Bar will get updated as soon as you play the song
 Audioelement.addEventListener('timeupdate',()=>{
     console.log("The time is getting updated");
