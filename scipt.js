@@ -9,9 +9,9 @@ let gif=document.getElementById('Gif');
 //Initialization of all the songs that is in our playlist
 let songs=[
     {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
-    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
-    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
-    {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
+    {songName:"Cold/Mess", filepath:"cold-mess.mp3",coverpath:"Cold-mess.jpeg"},
+    {songName:"Night Changes- One Direction", filepath:"NightChanges.mp3",coverpath:"NightChanges.jpeg"},
+    {songName:"Tere Hi Hum-Prateek Kuhad", filepath:"tere hi hum.mp3",coverpath:"Tere hi hum.jpeg"},
     {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
     {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
     {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"}
