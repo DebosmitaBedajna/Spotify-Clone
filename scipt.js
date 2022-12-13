@@ -61,11 +61,15 @@ const makeallPlays= ()=>{
 
 Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
     element.addEventListener('click', (e)=>{
+        index= parseInt(e.target.id);
         makeallPlays();
         e.target.classList.remove("fa-play");
         e.target.classList.add("fa-pause");
-        Audioelement.src="cold-mess.mp3";
+        Audioelement.src='songs/${index}.mp3';
         Audioelement.currentTime=0;
         Audioelement.play()
+        Play.classList.remove('fa-play');
+        Play.classList.add('fa-pause');
+        gif.style.opacity=1;
     })
 });
