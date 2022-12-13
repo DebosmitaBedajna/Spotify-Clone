@@ -52,10 +52,9 @@ MyProgressBar.addEventListener('change',()=>{
     Audioelement.currentTime= MyProgressBar.value * Audioelement.duration/100;
 })
 
-Array.from(document.getElementsByClassName("SongItemPlay").forEach((element)=>{
+Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
     element.addEventListener('click', (e)=>{
         e.target.classList.remove("fa-play");
         e.target.classList.add("fa-pause");
     })
-}
-))
+});
