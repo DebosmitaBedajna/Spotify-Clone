@@ -68,8 +68,8 @@ Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
         Audioelement.src= 'cold-mess.mp3';
         Audioelement.currentTime=0;
         Audioelement.play()
-        Play.classList.remove('fa-play');
+        /*Play.classList.remove('fa-play');
         Play.classList.add('fa-pause');
-        gif.style.opacity=1;
+        gif.style.opacity=1;*/
     })
 });
