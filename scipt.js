@@ -24,7 +24,6 @@ songItems.forEach(element,i => {
     element.getElementsByClassName("Songname")[0]. src = songs[i].songName;
 });
 
-
 //The song will start playing when you will click this button 
 Play.addEventListener('click',()=>{
     if(Audioelement.paused|| Audioelement.currentTime<=0)
