@@ -52,8 +52,16 @@ MyProgressBar.addEventListener('change',()=>{
     Audioelement.currentTime= MyProgressBar.value * Audioelement.duration/100;
 })
 
+const makeallPlays= ()=>{
+    Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
+            element.target.classList.remove("fa-pause");
+            element.target.classList.add("fa-play");
+        });
+}
+
 Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
     element.addEventListener('click', (e)=>{
+        makeallPlays();
         e.target.classList.remove("fa-play");
         e.target.classList.add("fa-pause");
     })
