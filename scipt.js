@@ -6,7 +6,7 @@ let Audioelement= new Audio('Nothing.mp3');
 let Play=document.getElementById('Play');
 let MyProgressBar=document.getElementById('Progress');
 let gif=document.getElementById('Gif');
-let songItems= Array.from(document.getElementsByClassName('SongItem'));
+let songItems= Array.from(document.getElementsByClassName('songItem'));
 
 //Initialization of all the songs that is in our playlist
 let songs=[
