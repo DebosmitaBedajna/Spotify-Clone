@@ -61,7 +61,7 @@ const makeallPlays= ()=>{
 
 Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
     element.addEventListener('click', (e)=>{
-        //makeallPlays();
+        makeallPlays();
         e.target.classList.remove("fa-play");
         e.target.classList.add("fa-pause");
     })
