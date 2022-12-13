@@ -6,7 +6,8 @@ let Audioelement= new Audio('Nothing.mp3');
 let Play=document.getElementById('Play');
 let MyProgressBar=document.getElementById('Progress');
 let gif=document.getElementById('Gif');
-let songItems= Array.from(document.getElementsByClassName0('Songname'))
+let songItems= Array.from(document.getElementsByClassName('SongItem'))
+
 //Initialization of all the songs that is in our playlist
 let songs=[
     {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"},
@@ -18,10 +19,10 @@ let songs=[
     {songName:"Nothing", filepath:"nothing.mp3",coverpath:"Nothingcover.jpg"}
 ]
 
-songItems.forEach(element,i => {
-    console.log(element,i)
-    element.getElementsByTagName("img")[0]. src = songs[i].coverpath;
-    element.getElementsByClassName("Songname")[0]. src = songs[i].songName;
+songItems.forEach((element,i)=> {
+    console.log(element,i);
+    element.getElementsByTagName("img")[0].src= songs[i].coverpath;
+    element.getElementsByClassName("Songname")[0].innerText = songs[i].songName;
 });
 
 //The song will start playing when you will click this button 
