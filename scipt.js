@@ -65,7 +65,7 @@ Array.from(document.getElementsByClassName("SongItemPlay")).forEach((element)=>{
         makeallPlays();
         e.target.classList.remove("fa-play");
         e.target.classList.add("fa-pause");
-        Audioelement.src= `songs/${index}.mp3`;
+        Audioelement.src= `songs[${index}].mp3`;
         Audioelement.currentTime=0;
         Audioelement.play()
         Play.classList.remove('fa-play');
