@@ -1,6 +1,6 @@
 body{
     background-color:#242424;
-    /*color: white;*/
+    color: white;
 }
 *{
     margin: 0;
@@ -32,7 +32,7 @@ nav ul li
 .brand{
     display: flex;
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     align-items: center;
 }
 .container{
@@ -41,14 +41,16 @@ nav ul li
     background-color: #000000;
     font-family: 'Roboto Mono', monospace;
     display: flex;
-    width: 70%;
+    justify-content: center;
+    align-items: center;
+    /* width: 70%; */
     margin: 10px auto;
     padding: 30px;
-    background-image: url('logo.jpg');
+    background-image: url('./assets/logo.jpg');
 }
 
 .Bottom{
-    position:sticky;
+    /* position:sticky;
     height:80px;
     background-color:  #4b671b;
     bottom: 0;
@@ -57,16 +59,30 @@ nav ul li
     align-items: center;
     color: antiquewhite;
     flex-direction: column;
-    margin: 10px 0px;
+    margin: 10px 0px; */
+    background-color: #4b671b;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 10px;
+    color: white;
 }
 .icons{
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* margin-bottom: 10px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px; */
 }
 .icons i
 {
     cursor: pointer;
+    /* margin-left: 10px; */
 }
 #Progress
 {
@@ -79,7 +95,7 @@ nav ul li
     color: antiquewhite;
 }
 .songItem{
-    height: 50px;
+    /* height: 50px;
     width: 20vw;
     display: flex;
     background-color: #242424;
@@ -87,34 +103,57 @@ nav ul li
     margin: 20px 20px;
     justify-content: space-around;
     align-items: center;
-    border-radius: 39px;
+    border-radius: 39px; */
+    background-color: #242424;
+    margin: 10px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+    gap: 1rem;
+    border-radius: 7.5px;
 }
 .songItem img{
-    width: 40px;
-    height: 40px;
-    margin: 0 20px;
+    width: 50px;
+    height: 50px;
+    margin: 0px 20px;
     border-radius: 30px;
 }
 .timestamp{
-    margin: 0 20px;
+    margin: 0px 20px;
 }
 .timestamp i{
     cursor: pointer;
 }
 .songitemcontainer{
     margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .songinfo{
     display: flex;
-    height: 5vh;
+    /* height: 5vh; */
     position: absolute;
     left: 5vw;
     top: 5px;
     margin: 0px 10px;
-    justify-content: space-around;
-    align-items:flex-end;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 } 
 .songinfo img{
     opacity: 0;
     transition: opacity 0.5s ease-in;
+}
+.songlist{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
 }
