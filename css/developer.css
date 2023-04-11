@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-.div{
+div{
     background-color: #4b671b;
     display: flex;
     flex-direction: column;
