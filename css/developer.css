@@ -15,8 +15,7 @@ body{
     float: right;
 }
 
-#Dvepicture image{
-    border: #242424 1px;
+#Dvepicture{
     height: 30px;
     width: 40px;
     float: left;
