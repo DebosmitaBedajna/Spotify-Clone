@@ -16,7 +16,6 @@ nav ul
     color: antiquewhite;
     display: flex;
     list-style-type: none;
-    text-decoration: none;
     height: 50px;
     align-items: center;
     cursor: pointer;
