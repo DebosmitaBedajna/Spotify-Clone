@@ -16,8 +16,19 @@ body{
 }
 
 #Dvepicture{
+    background-color: #4b671b;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 15px;
+    float: left;
+
+}
+img{
     height: 20%;
     width: 30%;
-    float: left;
     border-radius: 20px;
 }
