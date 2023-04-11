@@ -14,15 +14,11 @@ body{
     border-radius: 15px;
     height: 50%;
     width: 60%;
-}
+}*/
 img{
-    display: flex;
-    flex-direction: column;
-    margin: 0%;
-    float: left;
     height: 30%;
     width: 30%;
-}*/
+}
 div{
     background-color: #4b671b;
     display: flex;
