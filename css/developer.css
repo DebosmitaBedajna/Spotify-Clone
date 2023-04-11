@@ -2,19 +2,35 @@ body{
     background-color:#242424;
     color: white;
 }
-
-/*p{
+nav{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+nav ul
+{
     background-color: #4b671b;
+    color: antiquewhite;
     display: flex;
-    flex-direction: column;
+    list-style-type: none;
+    height: 50px;
     align-items: center;
-    float: right;
-    margin: 0%;
-    padding: 10px;
-    border-radius: 15px;
-    height: 50%;
-    width: 60%;
-}*/
+    cursor: pointer;
+}
+nav ul li
+{
+    padding: 0 12px;
+}
+.brand img{
+    width: 45px;
+    height: 45px;
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    align-items: center;
+}
 p{
     height: 30%;
     width: 50%;
