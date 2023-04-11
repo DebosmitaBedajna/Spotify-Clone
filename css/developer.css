@@ -17,6 +17,7 @@ p{
 img{
     display: flex;
     flex-direction: column;
+    margin: 0%;
     float: left;
     height: 30%;
     width: 30%;
