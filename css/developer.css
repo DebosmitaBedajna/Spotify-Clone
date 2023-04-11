@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-.dvepivture div{
+#dvepivture{
     background-color: #4b671b;
     display: flex;
     flex-direction: row;
