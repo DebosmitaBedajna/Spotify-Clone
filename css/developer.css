@@ -15,7 +15,7 @@ body{
     float: right;
 }
 
-#Dvepicture{
+#Dvepicture image{
     display: flex;
     align-items: center;
     border: #242424 1px;
