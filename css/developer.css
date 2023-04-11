@@ -19,6 +19,8 @@ body{
     display: flex;
     align-items: center;
     border: #242424 1px;
+    height: 30px;
+    width: 40px;
     float: left;
     border-radius: 20px;
 }
