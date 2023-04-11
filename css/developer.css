@@ -3,28 +3,28 @@ body{
     color: white;
 }
 
-#Dveidea{
+.div{
     background-color: #4b671b;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
     border-radius: 15px;
-    float: right;
+    /*float: right;
     width: 69%;
-    height: 50%;
+    height: 50%;*/
 }
 
-#Dvepicture{
+/*#Dvepicture{
     background-color: #4b671b;
     flex-direction: column;
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     padding: 0px;
     float: left;
     width: 30%;
     height: 50%;
-}
+}*/
 img{
     height: 50%;
     width: 50%;
