@@ -45,7 +45,8 @@ img{
     width: 30%;
 }
 div{
-    background-color: #4b671b;
+    background-color:#242424;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -53,5 +54,4 @@ div{
     margin: 0px;
     padding: 5px;
     gap: 10px;
-    border-radius: 15px;
 }
