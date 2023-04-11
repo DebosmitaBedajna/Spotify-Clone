@@ -2,10 +2,6 @@ body{
     background-color:#242424;
     color: white;
 }
-nav{
-    font-family: 'Roboto Mono', monospace;
-    
-}
 nav ul
 {
     background-color: #4b671b;
