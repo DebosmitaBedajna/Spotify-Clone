@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-#dvepivture{
+div{
     background-color: #4b671b;
     display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@ body{
     border-radius: 15px;
 }
 
-img{
+#dvepicture img{
     height: 30%;
     width: 40%;
     border-radius: 20px;
