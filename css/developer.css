@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-#Dveidea div{
+#Dveidea{
     background-color: #4b671b;
     display: flex;
     flex-direction: row;
@@ -15,7 +15,7 @@ body{
     float: right;
 }
 
-#Dvepicture img{
+#Dvepicture{
     float: left;
     height: 20%;
     width: 20%;
