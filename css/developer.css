@@ -3,28 +3,15 @@ body{
     color: white;
 }
 
-div{
+p{
     background-color: #4b671b;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     align-items: center;
     padding: 10px;
     border-radius: 15px;
-    /*float: right;
-    width: 69%;
-    height: 50%;*/
-}
-
-/*#Dvepicture{
-    background-color: #4b671b;
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
-    float: left;
-    width: 30%;
     height: 50%;
-}*/
+}
 img{
     height: 50%;
     width: 50%;
