@@ -11,7 +11,7 @@ body{
     padding: 10px;
     border-radius: 15px;
     float: right;
-    width: 50%;
+    width: 70%;
 }
 
 #Dvepicture{
@@ -21,9 +21,10 @@ body{
     /*flex-wrap: wrap;*/
     padding: 0px;
     float: left;
-    width: 50%;
+    width: 30%;
+    height: 50%;
 }
 img{
-    height: 40%;
+    height: 50%;
     width: 50%;
 }
