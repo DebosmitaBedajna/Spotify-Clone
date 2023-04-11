@@ -26,10 +26,11 @@ img{
 div{
     background-color: #4b671b;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     float: right;
-    margin: 0%;
-    padding: 10px;
+    margin: 0px;
+    padding: 5px;
+    gap: 10px;
     border-radius: 15px;
 }
