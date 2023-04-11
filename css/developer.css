@@ -6,6 +6,7 @@ body{
 #Dveidea{
     background-color: #4b671b;
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 10px;
     border-radius: 15px;
@@ -14,6 +15,7 @@ body{
 
 #Dvepicture{
     background-color: #4b671b;
+    flex-direction: column;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -24,5 +26,4 @@ body{
 img{
     height: 20%;
     width: 20%;
-    border-radius: 20px;
 }
