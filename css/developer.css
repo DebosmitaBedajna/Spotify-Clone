@@ -5,13 +5,14 @@ body{
 
 p{
     background-color: #4b671b;
-    flex-direction: column;
+    display: inline-block;
     align-items: center;
     padding: 10px;
     border-radius: 15px;
     height: 50%;
 }
 img{
+    display: inline-block;
     height: 30%;
     width: 30%;
 }
