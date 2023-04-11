@@ -5,8 +5,9 @@ body{
 
 p{
     background-color: #4b671b;
-    display: inline-block;
+    display: flex;
     align-items: center;
+    float: right;
     padding: 10px;
     border-radius: 15px;
     height: 50%;
